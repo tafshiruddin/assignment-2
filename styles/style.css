@@ -508,5 +508,147 @@ form .cta-button {
   color: white;
   }
 
-  
+  /* team section styles */
 
+  .team-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 58px;
+   
+  }
+  .team-header > h3{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.team-header > p{
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 171%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  width: 44%;
+}
+
+.one{
+  background: url(/images/trainer1.png);
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 326px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.two{
+  background: url(/images/trainer2.png);
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 326px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.three{
+  background: url(/images/trainer3.png);
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 326px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.four{
+  background: url(/images/trainer4.png);
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 326px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.five{
+  background: url(/images/trainer5.png);
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 326px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  flex-wrap: wrap;
+  justify-content: flex-end
+}
+
+.six{
+  background: url(/images/trainer6.png);
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 326px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  flex-wrap: wrap;
+  justify-content: flex-end
+}
+
+.member h3{
+  color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 19px;
+}
+
+.member p{
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 19px;
+  margin-bottom: 19px;
+}
+
+.team-members-wrapper{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px, 3fr));
+    gap: 20px;
+    max-width: 1060px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+    margin-bottom: 88px;
+}
