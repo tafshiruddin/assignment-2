@@ -1,0 +1,119 @@
+/* Responsive Styles for Devices 576px or smaller */
+@media screen and (max-width: 576px) {
+  .nav-menus{
+    display: none;
+  }
+
+/*Hero section responsive  */
+
+.hero{
+    flex-direction: column;
+  }
+
+#hamburger{
+    display: block;
+  }
+
+.hero-title{
+  font-size: 2.25rem;
+  width: 45%;
+}
+
+.hero-description{
+  font-size: 1rem;
+  width: 51%;
+}
+
+.download-btn{
+  margin-left: 14px;
+}
+.logo,.hero-content{
+  margin-left: 20px;
+}
+.navbar{
+  margin-bottom: 51px ;
+}
+
+/* habits section responsive */
+.habit-section{
+  padding-top: -0px;
+}
+.habit-container{
+  grid-template-columns: repeat(1, 1fr);
+ gap: 40px;}
+
+ .habit-header > h3{
+  font-size: 2rem;
+  }
+
+ .habit-header > p{
+  font-size: 0.875rem;
+  width: 54%;
+  }
+
+  .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .item > p{
+    width: 76%;
+    text-align: center;
+  }
+
+  /* run section responsive */
+  .run-section{
+    width: 85%;
+  }
+
+  .run-text-area{
+    width: 54%;
+  }
+
+  .run-text-area > h3{
+    font-size: 2rem;
+  }
+  
+  .run-text-area > p{
+    font-size: 0.875rem;
+    margin-bottom: 24px;
+  }
+  
+  .run-container{
+    display: block;
+  }
+  .run-img img{
+    width: 287px;
+    height: 170px;
+    margin: 0 auto;
+    margin-left: 33px;
+  }
+
+  .bmi-section{
+    flex-direction: column;
+  }
+
+  .bmi-chart{
+    width: 100%;
+  }
+
+  .bmi-chart h2{
+    padding-bottom: 23px;
+  }
+
+  .bmi-chart {
+    padding-top: 34px;
+}
+
+.bmi-calculator {
+  margin-left: 0px;
+  margin-top: 42px;
+}
+
+.bmi-calculator p {
+  width: 73%;
+}
+
+}
