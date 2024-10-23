@@ -134,3 +134,27 @@
   width: 52%;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 576px){
+  .footer-content{
+    flex-direction: column;
+  }
+
+  .footer-links{
+    flex-direction: column;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+
+  .link-column{
+    margin-left: 20px;
+  }
+.footer-brand{
+  margin-left: 20px;
+}
+  footer{
+    overflow: hidden;
+  }
+}

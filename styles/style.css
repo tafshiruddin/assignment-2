@@ -510,6 +510,9 @@ form .cta-button {
 
   /* team section styles */
 
+  .team-section{
+    margin-bottom: 88px;
+  }
   .team-header{
     display: flex;
     flex-direction: column;
@@ -651,4 +654,92 @@ margin-left: 19px;
     border-radius: 18px;
     margin-bottom: 88px;
     margin: 0 auto;
+}
+
+footer{ 
+    background: #191919;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 79px;
+}
+
+.footer-brand {
+    max-width: 400px;
+}
+
+.brand-title {
+    color: rgb(230, 83, 60);
+  font-size: 4.375rem;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.brand-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.link-column {
+    margin-right: 152px;
+}
+
+.link-column h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 39px;
+}
+
+.link-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-column ul li {
+    margin-bottom: 20px;
+}
+
+.link-column ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.438rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.footer-bottom p {
+    color: #999;
+    font-size: 14px;
 }
